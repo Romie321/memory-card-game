@@ -1,6 +1,23 @@
 import { GameHeader } from "./components/GameHeader";
 
-const cardValues = [];
+const cardValues = [
+ ☯,
+ 🥋,
+ 🥊,
+ 🥷🏻,
+ ⛩️,
+ 🤼,
+ 💪,
+ 🏅,
+ ☯,
+ 🥋,
+ 🥊,
+ 🥷🏻,
+ ⛩️,
+ 🤼,
+ 💪,
+ 🏅
+];
 
 function App() {
   return (
