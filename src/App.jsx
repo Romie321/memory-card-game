@@ -3,7 +3,7 @@ import { GameHeader } from "./components/GameHeader";
 function App() {
   return (
     <div className="app">
-      <GameHeader score={} moves={}/>
+      <GameHeader score={2} moves={3} />
     </div>
   );
 }
