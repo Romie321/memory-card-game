@@ -7,7 +7,7 @@ export const GameHeader = () => {
           <span className="stat-label">Score:</span>{" "}
           <span className="stat-value">0</span>
         </div>
-        <div className="stat-name">
+        <div className="stat-item">
           <span className="stat-label"></span>{" "}
           <span className="stat-value">0</span>
         </div>
