@@ -1,5 +1,7 @@
 import { GameHeader } from "./components/GameHeader";
 
+const cardValues = [];
+
 function App() {
   return (
     <div className="app">
