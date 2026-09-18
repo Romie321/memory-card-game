@@ -25,3 +25,8 @@ body {
   padding: 20px;
   color: #fff;
 }
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+}
