@@ -36,8 +36,8 @@ function App() {
   };
 
   useEffect(() => {
-    initializeGame()
-  }, []))
+    initializeGame();
+  }, []);
 
   return (
     <div className="app">
