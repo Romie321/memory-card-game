@@ -22,7 +22,11 @@ const cardValues = [
 function App() {
   const [cards, setCards] = useState([]);
 
-  const initializeGame = () => {};
+  const initializeGame = () => {
+    //shuffle cards
+
+    setCards(cardValues.map((value, index) => {}));
+  };
 
   return (
     <div className="app">
