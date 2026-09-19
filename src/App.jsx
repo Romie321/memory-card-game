@@ -31,6 +31,8 @@ function App() {
       isFlipped: false,
       isMatched: false,
     }));
+
+    setCards(finalCards);
   };
 
   return (
