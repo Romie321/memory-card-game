@@ -59,4 +59,9 @@ body {
 }
 
 .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, fr);
+  gap: 15px;
+  max-width: 600px;
+  width: 100px;
 }
