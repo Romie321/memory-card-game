@@ -1,4 +1,5 @@
 import { GameHeader } from "./components/GameHeader";
+import { useEffect, useState } from "react";
 
 const cardValues = [
   "☯",
