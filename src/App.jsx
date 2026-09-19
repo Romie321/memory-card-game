@@ -20,6 +20,7 @@ const cardValues = [
 ];
 
 function App() {
+  const [cards, setCards] = useState([]);
   return (
     <div className="app">
       <GameHeader score={2} moves={3} />
