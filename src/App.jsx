@@ -43,7 +43,7 @@ function App() {
     <div className="app">
       <GameHeader score={2} moves={3} />
       <div className="cards-grid">
-        {cardValues.map((card) => (
+        {cards.map((card) => (
           <Card card={card} />
         ))}
       </div>
