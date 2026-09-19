@@ -25,7 +25,12 @@ function App() {
   const initializeGame = () => {
     //shuffle cards
 
-    const finalCards = cardValues.map((value, index) => ());
+    const finalCards = cardValues.map((value, index) => ({
+      id: index,
+      value,
+      isFlipped: false,
+      isMatched: false,
+    }));
   };
 
   return (
