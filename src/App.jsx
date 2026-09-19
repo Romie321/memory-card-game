@@ -35,6 +35,8 @@ function App() {
     setCards(finalCards);
   };
 
+  useEffect(( => {}, []))
+
   return (
     <div className="app">
       <GameHeader score={2} moves={3} />
