@@ -35,7 +35,7 @@ function App() {
     setCards(finalCards);
   };
 
-  useEffect(( => {
+  useEffect(() => {
     initializeGame()
   }, []))
 
