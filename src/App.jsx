@@ -35,7 +35,9 @@ function App() {
     setCards(finalCards);
   };
 
-  useEffect(( => {}, []))
+  useEffect(( => {
+    initializeGame()
+  }, []))
 
   return (
     <div className="app">
