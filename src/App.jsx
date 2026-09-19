@@ -21,6 +21,9 @@ const cardValues = [
 
 function App() {
   const [cards, setCards] = useState([]);
+
+  const initializeGame = () => {};
+
   return (
     <div className="app">
       <GameHeader score={2} moves={3} />
