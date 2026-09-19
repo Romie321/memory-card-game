@@ -25,7 +25,7 @@ function App() {
   const initializeGame = () => {
     //shuffle cards
 
-    setCards(cardValues.map((value, index) => {}));
+    const finalCards = cardValues.map((value, index) => ());
   };
 
   return (
