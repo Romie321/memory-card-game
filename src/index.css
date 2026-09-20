@@ -118,3 +118,9 @@ body {
 .card.matched {
   pointer-events: none;
 }
+
+.card.matched .card-back {
+  background: rgba(126, 211, 33, 0.2);
+  box-shadow: 0 0 20px rgba(126, 211, 33, 0.4);
+  border: 2px solid rgba(126, 211, 33, 0.5);
+}
