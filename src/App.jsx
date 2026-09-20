@@ -40,6 +40,10 @@ function App() {
     initializeGame();
   }, []);
 
+  const handleCardClick = () => {
+    
+  }
+
   return (
     <div className="app">
       <GameHeader score={2} moves={3} />
