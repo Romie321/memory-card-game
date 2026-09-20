@@ -45,7 +45,7 @@ function App() {
       <GameHeader score={2} moves={3} />
       <div className="cards-grid">
         {cards.map((card) => (
-          <Card card={card} />
+          <Card card={card} onClick={} />
         ))}
       </div>
     </div>
