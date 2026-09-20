@@ -124,3 +124,6 @@ body {
   box-shadow: 0 0 20px rgba(126, 211, 33, 0.4);
   border: 2px solid rgba(126, 211, 33, 0.5);
 }
+
+.card:hover:not(.matched):not(flipped) .card-front {
+}
