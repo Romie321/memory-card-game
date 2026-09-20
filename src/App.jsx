@@ -24,7 +24,7 @@ function App() {
   const [cards, setCards] = useState([]);
 
   const initializeGame = () => {
-    //shuffle cards
+    //Shuffle cards
 
     const finalCards = cardValues.map((value, index) => ({
       id: index,
@@ -40,7 +40,9 @@ function App() {
     initializeGame();
   }, []);
 
-  const handleCardClick = (card) => {};
+  const handleCardClick = (card) => {
+    // If card is already flipped and matched then you can't click again.
+  };
 
   return (
     <div className="app">
