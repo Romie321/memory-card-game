@@ -130,4 +130,5 @@ body {
 }
 
 .card:active:not(.matched) {
+  transform: scale(0.95);
 }
