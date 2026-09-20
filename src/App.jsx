@@ -40,7 +40,7 @@ function App() {
     initializeGame();
   }, []);
 
-  const handleCardClick = () => {};
+  const handleCardClick = (card) => {};
 
   return (
     <div className="app">
