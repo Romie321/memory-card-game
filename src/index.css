@@ -110,3 +110,7 @@ body {
   pointer-events: none;
   transform: scale(0.9);
 }
+
+.card.matched {
+  pointer-events: none;
+}
