@@ -54,6 +54,8 @@ return;
         return c;
       }
     })
+
+    setCards(newCards);
   };
 
   return (
