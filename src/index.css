@@ -128,3 +128,6 @@ body {
 .card:hover:not(.matched):not(flipped) .card-front {
   transform: scale(1.05);
 }
+
+.card:active:not(.matched) {
+}
