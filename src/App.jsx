@@ -70,7 +70,7 @@ function App() {
         alert("Its a match!");
       } else {
         // Flip cards back when they don't match.
-        const flipCardsBack;
+        const flippedBackCards;
       }
     }
   };
