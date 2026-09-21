@@ -58,6 +58,8 @@ function App() {
     });
 
     setCards(newCards);
+
+    const newFlippedCards = [...flippedCards, card.id]
   };
 
   return (
