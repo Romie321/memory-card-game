@@ -77,6 +77,7 @@ function App() {
             return c;
           }
         });
+        setCards(flippedBackCards);
       }
     }
   };
