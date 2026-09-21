@@ -70,7 +70,13 @@ function App() {
         alert("Its a match!");
       } else {
         // Flip cards back when they don't match.
-        const flippedBackCards;
+        const flippedBackCards = newCards.map((c) => {
+          if (newFlippedCards.includes(c.id)) {
+            return { ...c, isFlipped: false };
+          } else {
+            return c;
+          }
+        });
       }
     }
   };
