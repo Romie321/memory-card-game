@@ -23,7 +23,7 @@ const cardValues = [
 
 function App() {
   const [cards, setCards] = useState([]);
-  const [flippedCards, setFlippedCards] = useState([])
+  const [flippedCards, setFlippedCards] = useState([]);
 
   const initializeGame = () => {
     //Shuffle cards
@@ -44,9 +44,9 @@ function App() {
 
   const handleCardClick = (card) => {
     // If card is already flipped and/or matched then you can't click again.
-    if (card.isFlipped) || (card.isMatched) {
+    if (card.isFlipped || card.isMatched) {
       return;
-    };
+    }
 
     // Update card flipped state.
     const newCards = cards.map((c) => {
