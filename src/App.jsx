@@ -62,13 +62,14 @@ function App() {
     const newFlippedCards = [...flippedCards, card.id];
     setFlippedCards(newFlippedCards);
 
-    // Check for match when two cards are flipped
+    // Check for match when two cards are flipped.
     if (flippedCards.length === 1) {
       const firstCard = cards[flippedCards[0]];
 
       if (firstCard.value === card.value) {
         alert("Its a match!");
       } else {
+        // Flip cards back when they don't match.
         const flipCardsBack;
       }
     }
