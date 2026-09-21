@@ -64,6 +64,7 @@ function App() {
 
     // Check for match when two cards are flipped
     if (flippedCards.length === 1) {
+      const firstCard = cards[flippedCards[0]];
     }
   };
 
