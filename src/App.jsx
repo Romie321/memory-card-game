@@ -67,6 +67,7 @@ function App() {
       const firstCard = cards[flippedCards[0]];
 
       if (firstCard.value === card.value) {
+        alert("Its a match!");
       } else {
       }
     }
