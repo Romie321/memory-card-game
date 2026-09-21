@@ -63,6 +63,8 @@ function App() {
     setFlippedCards(newFlippedCards);
 
     // Check for match when two cards are flipped
+    if (flippedCards.length === 1) {
+    }
   };
 
   return (
