@@ -59,7 +59,8 @@ function App() {
 
     setCards(newCards);
 
-    const newFlippedCards = [...flippedCards, card.id]
+    const newFlippedCards = [...flippedCards, card.id];
+    setFlippedCards(newFlippedCards);
   };
 
   return (
