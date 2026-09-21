@@ -69,6 +69,7 @@ function App() {
       if (firstCard.value === card.value) {
         alert("Its a match!");
       } else {
+        const flipCardsBack;
       }
     }
   };
