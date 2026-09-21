@@ -1,5 +1,6 @@
 import { GameHeader } from "./components/GameHeader";
 import { useEffect, useState } from "react";
+import { card } from "./components/Card";
 
 const cardValues = [
   "☯",
@@ -41,19 +42,19 @@ function App() {
   }, []);
 
   const handleCardClick = (card) => {
-    // If card is already flipped and/ or matched then you can't click again.
-    if (card.isFlipped) || (card.isMatched) {
-return;
+    // If card is already flipped and/or matched then you can't click again.
+    if (card.isFlipped || card.isMatched) {
+      return;
     }
 
     // Update card flipped state.
     const newCards = cards.map((c) => {
       if (c.id === card.id) {
-        return {...c, isFlipped: true};
+        return { ...c, isFlipped: true };
       } else {
         return c;
       }
-    })
+    });
 
     setCards(newCards);
   };
@@ -63,7 +64,7 @@ return;
       <GameHeader score={2} moves={3} />
       <div className="cards-grid">
         {cards.map((card) => (
-          <Card card={card} onClick={handleCardClick} />
+          <card card={card} onClick={handleCardClick} />
         ))}
       </div>
     </div>
