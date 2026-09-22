@@ -88,7 +88,6 @@ function App() {
             }),
           );
 
-          setCards(newMatchedCards);
           setFlippedCards([]);
         }, 400);
       } else {
