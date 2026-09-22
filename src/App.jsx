@@ -69,6 +69,7 @@ function App() {
 
       if (firstCard.value === card.value) {
         sstMatchedCards((prev) => [...prev, firstCard.id, card.id]);
+        const newMatchedCards = cards.map((c) => {});
       } else {
         // Flip cards back when they don't match.
         setTimeout(() => {
