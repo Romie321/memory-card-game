@@ -78,6 +78,16 @@ function App() {
             }
           });
 
+          setCards((prev) =>
+            prev.map((c) => {
+              if (c.id === card.id || c.id === firstCard.id) {
+                return { ...c, isMatched: true };
+              } else {
+                return c;
+              }
+            }),
+          );
+
           setCards(newMatchedCards);
           setFlippedCards([]);
         }, 400);
