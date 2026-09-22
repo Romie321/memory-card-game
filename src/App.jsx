@@ -70,13 +70,6 @@ function App() {
       if (firstCard.value === card.value) {
         setTimeout(() => {
           setMatchedCards((prev) => [...prev, firstCard.id, card.id]);
-          const newMatchedCards = cards.map((c) => {
-            if (c.id === card.id || c.id === firstCard.id) {
-              return { ...c, isMatched: true };
-            } else {
-              return c;
-            }
-          });
 
           setCards((prev) =>
             prev.map((c) => {
