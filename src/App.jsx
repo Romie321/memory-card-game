@@ -78,6 +78,7 @@ function App() {
         });
 
         setCards(newMatchedCards);
+        setFlippedCards([]);
       } else {
         // Flip cards back when they don't match.
         setTimeout(() => {
