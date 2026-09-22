@@ -68,17 +68,19 @@ function App() {
       const firstCard = cards[flippedCards[0]];
 
       if (firstCard.value === card.value) {
-        setMatchedCards((prev) => [...prev, firstCard.id, card.id]);
-        const newMatchedCards = cards.map((c) => {
-          if (c.id === card.id || c.id === firstCard.id) {
-            return { ...c, isMatched: true };
-          } else {
-            return c;
-          }
-        });
+        setTimeout(() => {
+          setMatchedCards((prev) => [...prev, firstCard.id, card.id]);
+          const newMatchedCards = cards.map((c) => {
+            if (c.id === card.id || c.id === firstCard.id) {
+              return { ...c, isMatched: true };
+            } else {
+              return c;
+            }
+          });
 
-        setCards(newMatchedCards);
-        setFlippedCards([]);
+          setCards(newMatchedCards);
+          setFlippedCards([]);
+        }, 400);
       } else {
         // Flip cards back when they don't match.
         setTimeout(() => {
