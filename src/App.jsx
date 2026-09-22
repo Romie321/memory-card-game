@@ -68,7 +68,7 @@ function App() {
       const firstCard = cards[flippedCards[0]];
 
       if (firstCard.value === card.value) {
-        alert("Its a match!");
+        sstMatchedCards((prev) => [...prev, firstCard.id, card.id]);
       } else {
         // Flip cards back when they don't match.
         setTimeout(() => {
