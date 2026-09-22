@@ -76,6 +76,8 @@ function App() {
             return c;
           }
         });
+
+        setCards(newMatchedCards);
       } else {
         // Flip cards back when they don't match.
         setTimeout(() => {
