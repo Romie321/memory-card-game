@@ -42,6 +42,7 @@ function App() {
     setMoves(0);
     setScore(0);
     setMatchedCards([]);
+    setFlippedCards([]);
   };
 
   useEffect(() => {
