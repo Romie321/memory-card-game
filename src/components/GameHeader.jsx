@@ -12,7 +12,7 @@ export const GameHeader = (score, moves) => {
           <span className="stat-value">{moves}</span>
         </div>
       </div>
-      <button className="reset-btn"></button>
+      <button className="reset-btn" onClick={}></button>
     </div>
   );
 };
