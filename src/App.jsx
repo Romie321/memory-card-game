@@ -99,6 +99,7 @@ function App() {
           setFlippedCards([]);
         }, 1000);
       }
+      setMoves((prev) => prev + 1);
     }
   };
 
