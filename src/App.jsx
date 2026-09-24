@@ -52,7 +52,7 @@ function App() {
 
   const handleCardClick = (card) => {
     // If card is already flipped and/or matched then you can't click again.
-    if (card.isFlipped || card.isMatched) {
+    if (card.isFlipped || card.isMatched || isLocked || flippedCards === 2) {
       return;
     }
 
