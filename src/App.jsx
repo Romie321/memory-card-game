@@ -91,6 +91,7 @@ function App() {
           );
 
           setFlippedCards([]);
+          setIsLocked(false);
         }, 400);
       } else {
         // Flip cards back when they don't match.
