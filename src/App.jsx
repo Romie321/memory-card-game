@@ -39,6 +39,7 @@ function App() {
     }));
 
     setCards(finalCards);
+    setMoves(0);
   };
 
   useEffect(() => {
