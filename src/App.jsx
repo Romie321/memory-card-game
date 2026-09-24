@@ -24,7 +24,7 @@ const cardValues = [
 function App() {
   const [cards, setCards] = useState([]);
   const [flippedCards, setFlippedCards] = useState([]);
-  const [matchedCards, setMattchedCards] = useState([]);
+  const [matchedCards, setMatchedCards] = useState([]);
   const [score, setScore] = useState(0);
   const [moves, setMoves] = useMoves(0);
 
