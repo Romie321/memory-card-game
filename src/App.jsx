@@ -44,6 +44,7 @@ function App() {
     setScore(0);
     setMatchedCards([]);
     setFlippedCards([]);
+    isLocked(false);
   };
 
   useEffect(() => {
