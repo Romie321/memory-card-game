@@ -105,6 +105,7 @@ function App() {
           });
           setCards(flippedBackCards);
           setFlippedCards([]);
+          setIsLocked(false);
         }, 1000);
       }
       setMoves((prev) => prev + 1);
