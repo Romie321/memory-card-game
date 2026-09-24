@@ -72,6 +72,7 @@ function App() {
 
     // Check for match when two cards are flipped.
     if (flippedCards.length === 1) {
+      setIsLocked(true);
       const firstCard = cards[flippedCards[0]];
 
       if (firstCard.value === card.value) {
