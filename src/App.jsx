@@ -26,6 +26,7 @@ function App() {
   const [flippedCards, setFlippedCards] = useState([]);
   const [matchedCards, setMattchedCards] = useState([]);
   const [score, setScore] = useState(0);
+  const [moves, setMoves] = useMoves(0);
 
   const initializeGame = () => {
     //Shuffle cards
