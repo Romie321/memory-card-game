@@ -41,6 +41,7 @@ function App() {
     setCards(finalCards);
     setMoves(0);
     setScore(0);
+    setMatchedCards([]);
   };
 
   useEffect(() => {
