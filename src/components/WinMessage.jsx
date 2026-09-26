@@ -1,1 +1,3 @@
-const WinMessage = () => {};
+const WinMessage = () => {
+    return()
+};
