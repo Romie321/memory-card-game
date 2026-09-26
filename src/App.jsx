@@ -127,7 +127,7 @@ function App() {
   return (
     <div className="app">
       <GameHeader score={score} moves={moves} onReset={initializeGame} />
-      <WinMessage />
+      <WinMessage moves={moves} />
       <div className="cards-grid">
         {cards.map((card) => (
           <card card={card} onClick={handleCardClick} />
