@@ -18,7 +18,6 @@ export const useGameLogic = (cardValues) => {
   };
 
   const initializeGame = () => {
-    //Shuffle cards
     shuffleArray(cardValues);
 
     const finalCards = shuffleArray.map((value, index) => ({
