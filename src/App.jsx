@@ -1,6 +1,7 @@
 import { GameHeader } from "./components/GameHeader";
 import { useEffect, useState } from "react";
 import { card } from "./components/Card";
+import { WinMessage } from "./components/WinMessage";
 
 const cardValues = [
   "☯",
@@ -126,6 +127,7 @@ function App() {
   return (
     <div className="app">
       <GameHeader score={score} moves={moves} onReset={initializeGame} />
+      <WinMessage />
       <div className="cards-grid">
         {cards.map((card) => (
           <card card={card} onClick={handleCardClick} />
