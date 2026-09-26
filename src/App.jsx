@@ -124,6 +124,8 @@ function App() {
     }
   };
 
+  const isGameComplete = matchedCards.length === cardValues.length;
+
   return (
     <div className="app">
       <GameHeader score={score} moves={moves} onReset={initializeGame} />
