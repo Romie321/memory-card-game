@@ -40,9 +40,9 @@ function App() {
 
   const initializeGame = () => {
     //Shuffle cards
-    shuffleArray();
+    shuffleArray(cardValues);
 
-    const finalCards = cardValues.map((value, index) => ({
+    const finalCards = shuffleArray.map((value, index) => ({
       id: index,
       value,
       isFlipped: false,
