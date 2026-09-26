@@ -40,6 +40,7 @@ function App() {
 
   const initializeGame = () => {
     //Shuffle cards
+    shuffleArray();
 
     const finalCards = cardValues.map((value, index) => ({
       id: index,
