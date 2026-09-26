@@ -23,6 +23,7 @@ const cardValues = [
 ];
 
 function App() {
+  const {} = useGameLogic(cardValues);
   return (
     <div className="app">
       <GameHeader score={score} moves={moves} onReset={initializeGame} />
