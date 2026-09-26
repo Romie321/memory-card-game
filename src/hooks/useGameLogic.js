@@ -101,4 +101,13 @@ export const useGameLogic = (cardValues) => {
   };
 
   const isGameComplete = matchedCards.length === cardValues.length;
+
+  return {
+    score,
+    moves,
+    cards,
+    isGameComplete,
+    initializeGame,
+    handleCardClick,
+  };
 };
