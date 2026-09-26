@@ -1,5 +1,4 @@
 import { GameHeader } from "./components/GameHeader";
-import { useEffect, useState } from "react";
 import { card } from "./components/Card";
 import { WinMessage } from "./components/WinMessage";
 
