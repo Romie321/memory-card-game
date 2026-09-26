@@ -1,1 +1,1 @@
-export const useGameLogic = () => {};
+export const useGameLogic = (cardValues) => {};
