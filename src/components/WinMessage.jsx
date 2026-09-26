@@ -1,3 +1,7 @@
 const WinMessage = () => {
-    return()
+  return (
+    <div>
+      <h2>Congratulations!!!</h2>
+    </div>
+  );
 };
