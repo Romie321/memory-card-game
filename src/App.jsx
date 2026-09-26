@@ -29,6 +29,8 @@ function App() {
   const [moves, setMoves] = useState(0);
   const [isLocked, setIsLocked] = useState(false);
 
+  const shuffleArray;
+
   const initializeGame = () => {
     //Shuffle cards
 
