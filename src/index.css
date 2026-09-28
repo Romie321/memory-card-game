@@ -73,6 +73,11 @@ body {
 }
 
 .stat-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #a1a1aa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .cards-grid {
