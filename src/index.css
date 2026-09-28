@@ -106,6 +106,9 @@ body {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.reset-btn:active {
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, fr);
