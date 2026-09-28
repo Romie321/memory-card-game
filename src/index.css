@@ -94,6 +94,7 @@ body {
   padding: 12px 30px;
   font-size: 1.1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .cards-grid {
