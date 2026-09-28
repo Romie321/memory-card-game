@@ -80,6 +80,9 @@ body {
   letter-spacing: 1px;
 }
 
+.stat-value {
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, fr);
