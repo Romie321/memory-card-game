@@ -59,6 +59,10 @@ body {
 }
 
 .stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
 }
 
 .cards-grid {
