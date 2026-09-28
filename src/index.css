@@ -110,6 +110,9 @@ body {
   transform: translateY(0);
 }
 
+.win-message {
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, fr);
