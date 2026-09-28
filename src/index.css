@@ -107,6 +107,7 @@ body {
 }
 
 .reset-btn:active {
+  transform: translateY(0);
 }
 
 .cards-grid {
