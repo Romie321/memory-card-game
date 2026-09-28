@@ -88,6 +88,9 @@ body {
 
 .reset-btn {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
 }
 
 .cards-grid {
