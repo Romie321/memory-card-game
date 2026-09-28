@@ -86,6 +86,9 @@ body {
   color: #818cf8;
 }
 
+.reset-btn {
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, fr);
