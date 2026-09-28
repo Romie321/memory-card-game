@@ -58,6 +58,9 @@ body {
   text-align: center;
 }
 
+.stats {
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, fr);
