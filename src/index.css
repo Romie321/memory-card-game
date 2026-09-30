@@ -115,6 +115,7 @@ body {
   padding: 30px 50px;
   border-radius: 15px;
   text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .cards-grid {
