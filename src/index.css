@@ -132,6 +132,8 @@ body {
 }
 
 .win-message h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .cards-grid {
