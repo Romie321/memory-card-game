@@ -136,6 +136,9 @@ body {
   margin-bottom: 10px;
 }
 
+.win-message p {
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, fr);
