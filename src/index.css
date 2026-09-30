@@ -111,6 +111,7 @@ body {
 }
 
 .win-message {
+  background: rgb(15, 23, 42, 0.9);
 }
 
 .cards-grid {
