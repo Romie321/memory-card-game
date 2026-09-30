@@ -112,6 +112,8 @@ body {
 
 .win-message {
   background: rgb(15, 23, 42, 0.9);
+  padding: 30px 50px;
+  border-radius: 15px;
 }
 
 .cards-grid {
