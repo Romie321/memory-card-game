@@ -1,13 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export const useGameLogic = (cardValues) => {
-  const [cards, setCards] = useState([]);
-  const [flippedCards, setFlippedCards] = useState([]);
-  const [matchedCards, setMatchedCards] = useState([]);
-  const [score, setScore] = useState(0);
-  const [moves, setMoves] = useState(0);
-  const [isLocked, setIsLocked] = useState(false);
-
   const shuffleArray = (array) => {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -17,27 +10,32 @@ export const useGameLogic = (cardValues) => {
     return shuffled;
   };
 
-  const initializeGame = () => {
+  const createCards = () => {
     const shuffled = shuffleArray(cardValues);
 
-    const finalCards = shuffled.map((value, index) => ({
+    return shuffled.map((value, index) => ({
       id: index,
       value,
       isFlipped: false,
       isMatched: false,
     }));
+  };
 
-    setCards(finalCards);
+  const [cards, setCards] = useState(() => createCards());
+  const [flippedCards, setFlippedCards] = useState([]);
+  const [matchedCards, setMatchedCards] = useState([]);
+  const [score, setScore] = useState(0);
+  const [moves, setMoves] = useState(0);
+  const [isLocked, setIsLocked] = useState(false);
+
+  const initializeGame = () => {
+    setCards(createCards());
     setMoves(0);
     setScore(0);
     setMatchedCards([]);
     setFlippedCards([]);
     setIsLocked(false);
   };
-
-  useEffect(() => {
-    initializeGame();
-  }, []);
 
   const handleCardClick = (card) => {
     // If card is already flipped and/or matched then you can't click again.
