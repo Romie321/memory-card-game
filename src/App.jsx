@@ -1,4 +1,5 @@
 import { GameHeader } from "./components/GameHeader";
+import { Card } from "./components/Card";
 import { WinMessage } from "./components/WinMessage";
 import { useGameLogic } from "./hooks/useGameLogic";
 
@@ -37,7 +38,7 @@ function App() {
       {isGameComplete && <WinMessage moves={moves} />}
       <div className="cards-grid">
         {cards.map((card) => (
-          <card card={card} onClick={handleCardClick} />
+          <Card key={card.id} card={card} onClick={handleCardClick} />
         ))}
       </div>
     </div>
