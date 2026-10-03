@@ -143,8 +143,8 @@ body {
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(4, fr);
-  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
   max-width: 600px;
   width: 100px;
 }
