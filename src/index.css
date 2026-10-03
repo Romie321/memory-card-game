@@ -145,10 +145,9 @@ body {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: 120px;
+  gap: 115px;
   max-width: 600px;
   width: 100px;
-  margin-top: 30px;
 }
 
 .card {
