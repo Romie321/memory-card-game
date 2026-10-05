@@ -8,7 +8,7 @@ This project was created as part of my journey into React development, focusing 
 
 ## 📸 Preview
 
-!/memory-card-game-preview.png
+./memory-card-game-preview.png
 
 ---
 
